@@ -23,6 +23,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  imaginai,
+  figpro,
+  astra,
+  next,
+  firebase,
+  php
 } from "../assets";
 
 export const navLinks = [
@@ -54,7 +60,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Problem Solver",
     icon: creator,
   },
 ];
@@ -81,16 +87,16 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Next Js",
+    icon: next,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "php",
+    icon: php,
   },
   {
     name: "MongoDB",
@@ -109,8 +115,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "firebase",
+    icon: firebase,
   },
 ];
 
@@ -172,42 +178,42 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "I thought it was impossible to make a website as beautiful as our product, but Anant proved me wrong.",
+    name: "Sahil Sharma",
     designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    company: "Solutions@Info",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "I've never met a web developer who truly cares about their clients' success like Anant does.",
+    name: "Aryan Chadda",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "After Anant optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Tanvi Saraswat",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://randomuser.me/api/portraits/women/1.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Imagin-AI",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "AI based Image Generator (Web Application) which provides a platform to your imagination. This innovative tool harnesses thepower of AI by seamlessly fetching data from an AI API, creatingstunning and dynamic images. The images created by this app can be downloaded easily and can be used anywhere without any copyright issues. Imagin-AI allows you to Imagine anything.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +221,53 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: imaginai,
+    source_code_link: "https://github.com/Anant-Dev925/ImaginAI",
+    live_preview_link: "https://imagin-ai-two.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Astra",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A mobile application built using React Native Expo ,Astra users to seamlessly post, view, save, and delete videos, providing a smooth and intuitive video-sharing experience. Astra combines a modern tech stack to create a dynamic and efficient platform for video content management, integrating robust backend functionality with an elegant frontend design.",
     tags: [
       {
-        name: "react",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nativewind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "appwrite",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: astra,
+    source_code_link: "https://github.com/Anant-Dev925/Astra-React_Native",
+    live_preview_link: "https://main--astra-download.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "FigPro",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "FigPro is a dynamic Figma clone revolutionizing collaborative design experiences. With real-time functionality powered, seamless canvas rendering, and responsive styling, FigPro offers an intuitive platform for creative teams. Developed with NEXT.js and TypeScript, FigPro sets a new standard for efficient and innovative design collaboration tools.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "liveblocks",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: figpro,
+    source_code_link: "https://github.com/Anant-Dev925/Figma_Clone",
+    live_preview_link: "https://figma-clone-pearl-psi.vercel.app/",
   },
 ];
 

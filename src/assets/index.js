@@ -29,6 +29,13 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import imaginai from "./imaginai.png"
+import figpro from "./figpro.png"
+import astra from "./astra.png"
+import play from './play.png'
+import next from "./tech/next.png"
+import firebase from './tech/firebase.png'
+import php from './tech/php.png'
 
 export {
   logo,
@@ -59,4 +66,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  imaginai,
+  figpro,
+  astra,
+  play,
+  next,
+  firebase,
+  php
 };
